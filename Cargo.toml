@@ -40,11 +40,11 @@ gpui-component-assets = { path = "crates/assets", version = "0.5.1" }
 gpui-fps = { path = "crates/fps", version = "0.1.0" }
 story = { path = "crates/story" }
 
-gpui = { version = "0.2.2", git = "https://github.com/Arecsu/zed" , rev = "7aff366498bac735ac846c7d7a1a0ad4b4870370"}
-gpui_platform = { git = "https://github.com/Arecsu/zed", features = ["font-kit", "x11", "wayland", "runtime_shaders"], rev = "7aff366498bac735ac846c7d7a1a0ad4b4870370" }
-gpui_web = { git = "https://github.com/Arecsu/zed" , rev = "7aff366498bac735ac846c7d7a1a0ad4b4870370"}
-gpui_macros = { version = "0.1.0", git = "https://github.com/Arecsu/zed" , rev = "7aff366498bac735ac846c7d7a1a0ad4b4870370"}
-reqwest_client = { git = "https://github.com/Arecsu/zed" , rev = "7aff366498bac735ac846c7d7a1a0ad4b4870370"}
+gpui = { version = "0.2.2", git = "https://github.com/Arecsu/zed" , rev = "b65632a4cb82b7cde71f9dd414dada4a42a6d0f2"}
+gpui_platform = { git = "https://github.com/Arecsu/zed", features = ["font-kit", "x11", "wayland", "runtime_shaders"], rev = "b65632a4cb82b7cde71f9dd414dada4a42a6d0f2" }
+gpui_web = { git = "https://github.com/Arecsu/zed" , rev = "b65632a4cb82b7cde71f9dd414dada4a42a6d0f2"}
+gpui_macros = { version = "0.1.0", git = "https://github.com/Arecsu/zed" , rev = "b65632a4cb82b7cde71f9dd414dada4a42a6d0f2"}
+reqwest_client = { git = "https://github.com/Arecsu/zed" , rev = "b65632a4cb82b7cde71f9dd414dada4a42a6d0f2"}
 sum-tree = { version = "0.2.0", package = "zed-sum-tree" }
 # reqwest = { version = "0.12.15-zed", package = "zed-reqwest" }
 reqwest = { git = "https://github.com/zed-industries/reqwest.git", rev = "c15662463bda39148ba154100dd44d3fba5873a4", default-features = false, features = [
